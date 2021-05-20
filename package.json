@@ -15,7 +15,9 @@
     "tailwindcss": "^2.0.4"
   },
   "scripts": {
-    "css": "postcss src/css/main.css -o src/main.css -w"
+    "css": "postcss src/css/main.css -o src/main.css -w",
+    "devServer": "live-server --open='/src'",
+    "dev": "npm run devServer & npm run css"
   },
   "author": "Justin Mooney",
   "license": "ISC"
